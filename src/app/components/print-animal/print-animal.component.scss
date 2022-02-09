@@ -1,0 +1,29 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    background-color: rgba(8, 6, 8, 0.822);
+    border-radius: 20px;
+
+    p {
+      background-color: rgb(165, 142, 161);
+      border-radius: 3px;
+      padding: 5px;
+      color: rgb(48, 16, 24);
+      text-shadow: 1px 1px 4px greenyellow;
+      font-size: larger;
+
+      button {
+        background-color: peachpuff;
+        border: none;
+        margin: 5px;
+        border-radius: 10px;
+        padding: 6px 14px 6px 14px;
+        color: rgb(41, 15, 41);
+        text-shadow: 1px 1px 4px rgb(234, 255, 47);
+      }
+
+    }
+  }
+

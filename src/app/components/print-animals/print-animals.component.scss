@@ -1,0 +1,60 @@
+article {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 990px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://cdn.pixabay.com/photo/2015/05/02/20/47/czech-republic-750417_1280.jpg');
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+
+  app-print-animal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    background-color: cadetblue;
+    color: rgb(4, 4, 51);
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: 1px 1px 8px palevioletred;
+    margin-bottom: 0em;
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  h2 {
+    background-color: cadetblue;
+    color: rgb(4, 4, 51);
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: 1px 1px 8px palevioletred;
+    margin-bottom: 0em;
+    align-self: flex-start;
+  }
+  ul {
+    margin: 10px;
+
+    li {
+      background-color: cadetblue;
+      color: rgb(4, 4, 51);
+      border-radius: 5px;
+      padding: 10px;
+      text-shadow: 1px 1px 8px palevioletred;
+      margin-bottom: 0em;
+      list-style: none;
+      margin-top: 5px;
+    }
+  }
+}
