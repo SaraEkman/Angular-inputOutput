@@ -1,4 +1,4 @@
-#[Link to GitHub Pages](https://saraekman.github.io/Angular-inputOutput/)
+[Link to GitHub Pages](https://saraekman.github.io/Angular-inputOutput/)
 
 # AngularInputOutput
 
