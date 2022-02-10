@@ -18,12 +18,12 @@ export class PrintAnimalComponent implements OnInit {
   ngOnInit(): void {
   }
   save() {
-    // this.disa = !this.disa
-    this.fed.emit(this.animal)
+    this.animal.isFed = !this.animal.isFed;
+    this.fed.emit(this.animal);
   }
   remove() {
-    // this.disa = !this.disa;
-    this.notFed.emit(this.animal)
+    this.animal.isFed = !this.animal.isFed;
+    this.notFed.emit(this.animal);
   }
 
 }
