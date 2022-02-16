@@ -6,6 +6,8 @@
       {{el.name}} är matad: {{el.num}}
     </li>
   </ul>
+</article>
+<article>
   <app-print-animal *ngFor="let animal of animals; let i = index;" [animal]="animal" (fed)="updateIsFed($event)"
     (notFed)="remo($event)" (removeAnimal)="getAnimalToR(i)">
   </app-print-animal>

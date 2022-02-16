@@ -5,10 +5,10 @@ article {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  // max-width: 1000px;
   margin: auto;
   background-image: linear-gradient(to bottom left, black, rgb(41, 26, 26), black);
   border-radius: 10px;
+
 
   h1 {
     background-color: rgb(160, 150, 95);
@@ -16,6 +16,8 @@ article {
     padding: 10px;
     text-shadow: 1px 1px 8px rgb(228, 169, 135);
     margin: 10px;
+    width: 100%;
+    text-align: center;
   }
   h2 {
     background-color: rgb(160, 134, 95);
@@ -23,16 +25,22 @@ article {
     padding: 8px;
     text-shadow: 1px 1px 8px rgb(236, 152, 42);
     margin: 10px;
+    width: 100%;
+    text-align: center;
   }
   ul {
     padding-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     li {
       background-color: rgb(97, 104, 69);
       color: white;
       border-radius: 5px;
       padding: 10px;
       list-style: none;
-      margin-top: 5px;
+      margin: 5px;
     }
   }
 }

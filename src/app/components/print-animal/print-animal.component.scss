@@ -3,15 +3,16 @@ div {
     flex-direction: column;
     justify-content: center;
     margin: 0.5rem;
-    background-color: rgb(75, 71, 74);
+    background-color: rgb(126, 114, 92);
     border-radius: 10px;
-
+    min-width: 40vw;
     p {
       padding: 5px;
       color: white;
       text-shadow: 1px 1px 4px rgb(82, 74, 41);
       font-size: larger;
       margin: 0%;
+      text-align: center;
 
 
       button {
