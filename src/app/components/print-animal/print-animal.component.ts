@@ -7,6 +7,7 @@ import { Animal } from 'src/app/models/Animal';
   styleUrls: ['./print-animal.component.scss']
 })
 export class PrintAnimalComponent implements OnInit {
+  removeBtn: string = 'removeB';
   className:string = 'removeBtn'
 
   @Input() animal: Animal = new Animal('', '', 0, '')

@@ -6,6 +6,9 @@ div {
     background-color: rgb(126, 114, 92);
     border-radius: 10px;
     min-width: 40vw;
+    position: relative;
+    padding: 25px 10px;
+
     p {
       padding: 5px;
       color: white;
@@ -24,6 +27,7 @@ div {
         color: whitesmoke;
         text-shadow: 1px 1px 4px rgb(255, 189, 47);
         align-self: flex-end;
+        letter-spacing: 2px;
         &:hover {
           background-image:linear-gradient(to bottom left, rgb(250, 145, 53), rgb(49, 15, 15), rgb(240, 158, 27));
           cursor: pointer;
@@ -31,9 +35,15 @@ div {
       }
       .removeBtn {
         text-align: center;
-        padding: 6px 50px 6px 50px;
+        padding: 6px 10px;
+        border-radius: 50%;
         margin-left: 2.5rem;
       }
+    }
+    .removeB {
+      position: absolute;
+      right: -5px;
+      top: -5px;
     }
   }
 
