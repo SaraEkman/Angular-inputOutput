@@ -1,0 +1,45 @@
+article {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/28/09/45/tiger-1285229_1280.jpg");
+  font-family: 'Courier New', Courier, monospace;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  border-radius: 10px;
+
+  h2 {
+    color: white;
+    margin: 0%;
+    padding: 10px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    input {
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 5px 50px 5px 50px;
+      margin: 5px;
+      border-radius: 15px;
+      background-image: linear-gradient(to bottom left, rgb(245, 212, 106), rgb(112, 70, 54), rgb(245, 156, 56)) ;
+      color: white;
+      border: 2px outset lightgray;
+      transition: all 5s ease-in-out .5s;
+
+      &:hover {
+        background-image: linear-gradient(to bottom left, rgb(184, 57, 48), rgb(63, 23, 18), rgb(199, 78, 48));
+        transition: all 5s ease-in-out .5s;
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+

@@ -3,10 +3,10 @@
   <h2> Antal gånger djuren är matade: {{sumF}} </h2>
   <ul>
     <li *ngFor="let el of animals">
-      {{el.namn}} är matad: {{el.num}}
+      {{el.name}} är matad: {{el.num}}
     </li>
   </ul>
-  <app-print-animal *ngFor="let animal of animals" [animal]="animal" (fed)="updateIsFed($event)"
-    (notFed)="remo($event)">
+  <app-print-animal *ngFor="let animal of animals; let i = index;" [animal]="animal" (fed)="updateIsFed($event)"
+    (notFed)="remo($event)" (removeAnimal)="getAnimalToR(i)">
   </app-print-animal>
 </article>

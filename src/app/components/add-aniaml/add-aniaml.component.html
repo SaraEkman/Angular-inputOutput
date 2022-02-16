@@ -1,0 +1,11 @@
+<article>
+  <h2>Lägga till ett eget djur 😊</h2>
+  <div>
+    <input type="text" placeholder="Namn" #name>
+    <input type="text" placeholder="Sort" #sort>
+    <input type="number" placeholder="Vikt" #weight>
+    <input type="text" placeholder="Mat" #food>
+    <button
+      (click)="addNewAniaml(name.value,sort.value,+weight.value,food.value); name.value=''; sort.value=''; weight.value=''; food.value='';">Spara</button>
+  </div>
+</article>

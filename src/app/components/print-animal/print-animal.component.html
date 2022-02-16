@@ -1,9 +1,10 @@
 <div>
-  <p>Namn: {{animal.namn}} </p>
+  <p>Namn: {{animal.name}} </p>
   <p>Sort: {{animal.sort}} </p>
-  <p>Vikt: {{animal.vikt}} </p>
-  <p>Mat: {{animal.mat}} </p>
+  <p>Vikt: {{animal.weight}} </p>
+  <p>Mat: {{animal.food}} </p>
   <p>Är matad <button (click)="save()">Ja</button>
-    <button (click)="remove()">Nej</button>
+    <button (click)="removeNum()">Nej</button>
   </p>
+  <p><button [class]="className" (click)="removeTheAni()">Ta bort</button></p>
 </div>

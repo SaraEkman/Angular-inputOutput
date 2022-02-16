@@ -1,58 +1,36 @@
 article {
   font-family: 'Courier New', Courier, monospace;
-  font-size: larger;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 990px;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background-image: url('https://cdn.pixabay.com/photo/2015/05/02/20/47/czech-republic-750417_1280.jpg');
-  border-radius: 5px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  // max-width: 1000px;
   margin: auto;
-
-  app-print-animal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+  background-image: linear-gradient(to bottom left, rgb(29, 26, 26), rgb(37, 18, 18), rgb(41, 37, 37));
+  border-radius: 10px;
 
   h1 {
-    background-color: cadetblue;
-    color: rgb(4, 4, 51);
+    background-color: rgb(160, 150, 95);
     border-radius: 5px;
     padding: 10px;
-    text-shadow: 1px 1px 8px palevioletred;
-    margin-bottom: 0em;
-    margin-right: 10px;
-    align-self: flex-start;
+    text-shadow: 1px 1px 8px rgb(228, 169, 135);
+    margin: 10px;
   }
   h2 {
-    background-color: cadetblue;
-    color: rgb(4, 4, 51);
+    background-color: rgb(160, 134, 95);
     border-radius: 5px;
-    padding: 10px;
-    text-shadow: 1px 1px 8px palevioletred;
-    margin-bottom: 0em;
-    align-self: flex-start;
+    padding: 8px;
+    text-shadow: 1px 1px 8px rgb(236, 152, 42);
+    margin: 10px;
   }
   ul {
-    margin: 10px;
-
+    padding-left: 0%;
     li {
-      background-color: cadetblue;
-      color: rgb(4, 4, 51);
+      background-color: rgb(97, 104, 69);
+      color: white;
       border-radius: 5px;
       padding: 10px;
-      text-shadow: 1px 1px 8px palevioletred;
-      margin-bottom: 0em;
       list-style: none;
       margin-top: 5px;
     }

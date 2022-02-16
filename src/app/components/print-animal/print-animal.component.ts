@@ -7,10 +7,13 @@ import { Animal } from 'src/app/models/Animal';
   styleUrls: ['./print-animal.component.scss']
 })
 export class PrintAnimalComponent implements OnInit {
+  className:string = 'removeBtn'
+
   @Input() animal: Animal = new Animal('', '', 0, '')
 
   @Output() fed = new EventEmitter<Animal>()
   @Output() notFed = new EventEmitter<Animal>()
+  @Output() removeAnimal = new EventEmitter<Animal>()
 
   // disa: boolean = false
   constructor() {}
@@ -21,9 +24,11 @@ export class PrintAnimalComponent implements OnInit {
     this.animal.isFed = !this.animal.isFed;
     this.fed.emit(this.animal);
   }
-  remove() {
+  removeNum() {
     this.animal.isFed = !this.animal.isFed;
     this.notFed.emit(this.animal);
   }
-
+  removeTheAni(){
+    this.removeAnimal.emit(this.animal)
+  }
 }
